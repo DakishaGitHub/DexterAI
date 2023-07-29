@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://dexterai-d3ek.onrender.com', {
+    const response = await fetch('https://phenomenal-dodol-4ef882.netlify.app', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
